@@ -1,6 +1,10 @@
 127.0.0.1 localhost
 172.18.68.115 dbs01.l00155877.lyit dbs01
-172.18.68.114 dc1.l00155877.lyit dc1
+
+# 172.18.68.114 dc1.l00155877.lyit dc1
+# I commented out the above address for dc1 as the connection is already there and can be resolved
+# but it dbs01 just wouldnt join the domain l00155877.lyit, kept saying couldnt authenticate Administrator 
+# account until I added it in
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
